@@ -21,6 +21,10 @@ public class Ball : MonoBehaviour
     public bool shot=false;
 
 
+    float resetTime = 10;
+    float currentTime = 10;
+
+
     public static event Action onUpperCol;
     public static event Action resetHoop;
     public static event Action resetBall;
@@ -31,6 +35,14 @@ public class Ball : MonoBehaviour
         UiManager.resetBall += ResetBall;
         GameManager.resetBall += ResetBall;
     }
+
+    protected virtual void OnDisable()
+    {
+        UiManager.resetBall -= ResetBall;
+        GameManager.resetBall -= ResetBall;
+
+    }
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -69,18 +81,29 @@ public class Ball : MonoBehaviour
         {
             transform.localScale = Vector3.Lerp(transform.localScale, transform.localScale * .4f, Time.deltaTime*2);
         }
+
+        if( shot && currentTime > 0)
+        {
+            currentTime -= Time.deltaTime;
+        }
+        else
+        {
+            ResetBall();
+        }
+
+
+
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "uppercol")
         {
-            shot = false;
             onUpperCol();
         }
     }
 
-    protected void ResetBall()
+    protected virtual void ResetBall()
     {
         transform.localPosition = origin;
         shot = false;
@@ -89,9 +112,7 @@ public class Ball : MonoBehaviour
         rb2d.isKinematic = true;
         rb2d.velocity = Vector2.zero;
         rb2d.angularVelocity = 0;
-
-
-
+        currentTime = 10;
     }
 
 }

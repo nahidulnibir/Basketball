@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,11 @@ public class hoop : MonoBehaviour
 {
 
     SpriteRenderer sr;
+    CircleCollider2D scoreCol;
+
+
+    public static event Action score;
+
 
     private void OnEnable()
     {
@@ -16,12 +22,16 @@ public class hoop : MonoBehaviour
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        scoreCol = GetComponent<CircleCollider2D>();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.tag == "ball")
+        {
+            //score
+            score();
+        }
     }
 
     // Update is called once per frame
@@ -32,11 +42,13 @@ public class hoop : MonoBehaviour
 
     void ChangeSortingLayerToFg() {
         sr.sortingLayerID = SortingLayer.NameToID("fg");
+        scoreCol.enabled = true;
     }
 
     void ResetSortingLayer()
     {
         sr.sortingLayerID = SortingLayer.NameToID("bg");
+        scoreCol.enabled = false;
     }
 
 }

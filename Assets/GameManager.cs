@@ -8,22 +8,22 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField]
-    GameObject[] balls;
-    GameObject activeBall;
+    Ball[] balls;
+    Ball activeBall;
     Vector2 restingPos = new Vector2(500, 500);
     Vector2 originPos = new Vector2(0, -4);
 
 
     void Start()
     {
-        foreach (GameObject ball in balls)
+        foreach (Ball ball in balls)
         {
             ball.GetComponent<Transform>().localPosition = restingPos;
-            ball.SetActive(false);
+            ball.gameObject.SetActive(false);
         }
 
         activeBall = balls[0];
-        activeBall.SetActive(true);
+        activeBall.gameObject.SetActive(true);
         activeBall.GetComponent<Transform>().localPosition = originPos;
         
     }
@@ -38,9 +38,9 @@ public class GameManager : MonoBehaviour
 
     public void SwitchBall(int ballsIndex)
     {
-        activeBall.SetActive(false);
+        activeBall.gameObject.SetActive(false);
         activeBall = balls[ballsIndex];
-        activeBall.SetActive(true);
+        activeBall.gameObject.SetActive(true);
         resetBall();
     }
 
