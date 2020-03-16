@@ -18,3 +18,6 @@ Features could not implement:
 => could not implement native share without any plugin.
 => 3 types of ball instead of 4 as asked
 => back button exit not working
+
+
+*** there is a summary comment in ball base layer 
