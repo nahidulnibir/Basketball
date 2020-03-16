@@ -19,6 +19,10 @@ using UnityEngine;
 
 
 
+// **  to play on unity editor press space for a miss shot 
+// & up arrow key for a score shot
+
+
 
 public class Ball : MonoBehaviour
 {

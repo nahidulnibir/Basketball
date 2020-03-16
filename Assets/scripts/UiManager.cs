@@ -83,6 +83,7 @@ public class UiManager : MonoBehaviour
         TimeBall.turnOffTimeBall += turnOffTimeBall;
         Ball.turnOffTimer += turnOffTimeBall;
         ScoreManager.scoreAction += score;
+        ScoreManager.resetScore += resetScore;
         ScoreManager.damageAction += miss;
         ScoreManager.gameOverAction += GameOver;
         PlatfromAction.ResetBall += ResetBall;
@@ -139,6 +140,10 @@ public class UiManager : MonoBehaviour
         lifeText.text = life.ToString();
         sm.PlaySound(SoundManager.sounds.miss);
         StartCoroutine(MissAnim());
+    }
+    void resetScore()
+    {
+        life = 3;
     }
 
     void GameOver(int score, int highScore)
