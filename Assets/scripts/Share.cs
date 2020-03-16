@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class Share : MonoBehaviour
@@ -25,11 +24,9 @@ public class Share : MonoBehaviour
 	public void OnShareButtonClick()
 	{
 
-		screenshotName = "fireblock_highscore.png";
-		shareSubject = "I challenge you to beat my high score in Fire Block";
-		shareMessage = "I challenge you to beat my high score in Fire Block. " +
-		". Get the Fire Block app from the link below. \nCheers\n" +
-		"\nhttp://onelink.to/fireblock";
+		screenshotName = "highscore.png";
+		shareSubject = "I challenge you to beat my high score";
+		shareMessage = "";
 
 		ShareScreenshot();
 	}

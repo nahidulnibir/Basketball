@@ -9,10 +9,11 @@ public class ScoreManager : MonoBehaviour
 {
     int score = 0;
     int Life = 3;
-    int highScore;
+    int highScore=0;
 
 
     public static event Action<int> scoreAction;
+    public static event Action damageAction;
     public static event Action<int,int> gameOverAction;
 
 
@@ -20,6 +21,8 @@ public class ScoreManager : MonoBehaviour
     {
         hoop.score += Score;
         UiManager.restart += Restart;
+        TimeBall.gameOver += GameOver;
+        PlatfromAction.miss += Damage;
     }
 
     // Start is called before the first frame update
@@ -55,6 +58,7 @@ public class ScoreManager : MonoBehaviour
             Debug.Log("GameOver");
             GameOver();
         }
+        damageAction();
     }
 
     void GameOver()

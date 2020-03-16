@@ -13,48 +13,1434 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-03-16T08:38:42.273+06:00
-  initializedAtString: 2020-03-16T08:38:11.203+06:00
+  lastUpdatedAtString: 2020-03-16T11:06:42.437+06:00
+  initializedAtString: 2020-03-16T11:06:42.437+06:00
   entries:
-  - path: .vs\BB\v16\.suo
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\.vs\BB\v16\.suo
-    projectPath: .vs\BB\v16\.suo
+  - path: .vs\Basketball\v15\.suo
+    fullPath: D:\unity_projects\2020\Basketball\.vs\Basketball\v15\.suo
+    projectPath: .vs\Basketball\v15\.suo
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
+  - path: .vs\Basketball\v15\Server\sqlite3\storage.ide-shm
+    fullPath: D:\unity_projects\2020\Basketball\.vs\Basketball\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Basketball\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Basketball\v15\Server\sqlite3\storage.ide-wal
+    fullPath: D:\unity_projects\2020\Basketball\.vs\Basketball\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Basketball\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\unity_projects\2020\Basketball\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\unity_projects\2020\Basketball\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\scripts\UiManager.cs
+    fullPath: D:\unity_projects\2020\Basketball\Assets\scripts\UiManager.cs
+    projectPath: Assets\scripts\UiManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\APIUpdater\project-dependencies.graph
+    fullPath: D:\unity_projects\2020\Basketball\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\assetDatabase3
+    fullPath: D:\unity_projects\2020\Basketball\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: D:\unity_projects\2020\Basketball\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\unity_projects\2020\Basketball\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\unity_projects\2020\Basketball\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\unity_projects\2020\Basketball\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\SceneVisibilityState.asset
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\04\04795688ff30b4ba7b508f239050cddc.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\04\04795688ff30b4ba7b508f239050cddc.info
+    projectPath: Library\metadata\04\04795688ff30b4ba7b508f239050cddc.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\04\04c2af10083244b2a87a616d23a0d423.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\04\04c2af10083244b2a87a616d23a0d423.info
+    projectPath: Library\metadata\04\04c2af10083244b2a87a616d23a0d423.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\07\07ca383ed66964821bef326516ba0119.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\07\07ca383ed66964821bef326516ba0119.info
+    projectPath: Library\metadata\07\07ca383ed66964821bef326516ba0119.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\08\08160081882f34a4488a9e72e745594f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\08\08160081882f34a4488a9e72e745594f.info
+    projectPath: Library\metadata\08\08160081882f34a4488a9e72e745594f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\0b\0b2306b990b00436ab20f8d3f3dc1a1c.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\0b\0b2306b990b00436ab20f8d3f3dc1a1c.info
+    projectPath: Library\metadata\0b\0b2306b990b00436ab20f8d3f3dc1a1c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\0d\0d0f4c9b93e0d4e2082e1a8a049501ac.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\0d\0d0f4c9b93e0d4e2082e1a8a049501ac.info
+    projectPath: Library\metadata\0d\0d0f4c9b93e0d4e2082e1a8a049501ac.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\0e\0e72febb3ed204887833c52c6caf99b0.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\0e\0e72febb3ed204887833c52c6caf99b0.info
+    projectPath: Library\metadata\0e\0e72febb3ed204887833c52c6caf99b0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\0f\0f46e2766cf044fcfb54344e2f684fcf.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\0f\0f46e2766cf044fcfb54344e2f684fcf.info
+    projectPath: Library\metadata\0f\0f46e2766cf044fcfb54344e2f684fcf.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\17\17c7d4015acb04a659937dc550bf7f1a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\17\17c7d4015acb04a659937dc550bf7f1a.info
+    projectPath: Library\metadata\17\17c7d4015acb04a659937dc550bf7f1a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\18\188ce8962652a4e63b2db3115307cb9b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\18\188ce8962652a4e63b2db3115307cb9b.info
+    projectPath: Library\metadata\18\188ce8962652a4e63b2db3115307cb9b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\18\18fda826b4bf9c04697adaf984c4a774.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\18\18fda826b4bf9c04697adaf984c4a774.info
+    projectPath: Library\metadata\18\18fda826b4bf9c04697adaf984c4a774.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\20\20af0d60bb0dd46f0941e0c1cf96ed54.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\20\20af0d60bb0dd46f0941e0c1cf96ed54.info
+    projectPath: Library\metadata\20\20af0d60bb0dd46f0941e0c1cf96ed54.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\25\25904d33d9e784a9e97386eeafa4afe9.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\25\25904d33d9e784a9e97386eeafa4afe9.info
+    projectPath: Library\metadata\25\25904d33d9e784a9e97386eeafa4afe9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\26\261f03e6e3eac4fbbb7d2de2ffdb23c5.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\26\261f03e6e3eac4fbbb7d2de2ffdb23c5.info
+    projectPath: Library\metadata\26\261f03e6e3eac4fbbb7d2de2ffdb23c5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\26\2680b0c46645245fe8b6090ada237feb.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\26\2680b0c46645245fe8b6090ada237feb.info
+    projectPath: Library\metadata\26\2680b0c46645245fe8b6090ada237feb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\27\27e57a2f316394078a1671adbfea73bc.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\27\27e57a2f316394078a1671adbfea73bc.info
+    projectPath: Library\metadata\27\27e57a2f316394078a1671adbfea73bc.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\28\28301ddb791d846ef9e54fc1fb7eb98f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\28\28301ddb791d846ef9e54fc1fb7eb98f.info
+    projectPath: Library\metadata\28\28301ddb791d846ef9e54fc1fb7eb98f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\28\28d218afcc5e749c3b77b493077bdeb5.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\28\28d218afcc5e749c3b77b493077bdeb5.info
+    projectPath: Library\metadata\28\28d218afcc5e749c3b77b493077bdeb5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\2c\2c58608e30c6c4d9db9aa0fa71d17296.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\2c\2c58608e30c6c4d9db9aa0fa71d17296.info
+    projectPath: Library\metadata\2c\2c58608e30c6c4d9db9aa0fa71d17296.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\2e\2e5b4054488334ef2a092506fd14d862.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\2e\2e5b4054488334ef2a092506fd14d862.info
+    projectPath: Library\metadata\2e\2e5b4054488334ef2a092506fd14d862.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\2e\2eeb55d7bb6f04d18a73e0008deb19eb.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\2e\2eeb55d7bb6f04d18a73e0008deb19eb.info
+    projectPath: Library\metadata\2e\2eeb55d7bb6f04d18a73e0008deb19eb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\2f\2f1976da23ad2449aae0b88a93cc5371.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\2f\2f1976da23ad2449aae0b88a93cc5371.info
+    projectPath: Library\metadata\2f\2f1976da23ad2449aae0b88a93cc5371.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\30\30bb4cc98ad53441d9c69af452b890be.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\30\30bb4cc98ad53441d9c69af452b890be.info
+    projectPath: Library\metadata\30\30bb4cc98ad53441d9c69af452b890be.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\31\311dd37a4f4c14a3d91fa437cebb8e5d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\31\311dd37a4f4c14a3d91fa437cebb8e5d.info
+    projectPath: Library\metadata\31\311dd37a4f4c14a3d91fa437cebb8e5d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\32\32075c2fa97e948648048ac47b620ac2.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\32\32075c2fa97e948648048ac47b620ac2.info
+    projectPath: Library\metadata\32\32075c2fa97e948648048ac47b620ac2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\33\33f591d05853c4075875a81560889eb6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\33\33f591d05853c4075875a81560889eb6.info
+    projectPath: Library\metadata\33\33f591d05853c4075875a81560889eb6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\34\34310071d33ab42b788285f48847dfab.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\34\34310071d33ab42b788285f48847dfab.info
+    projectPath: Library\metadata\34\34310071d33ab42b788285f48847dfab.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\34\3452527d2f2094d40a16000082f13be6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\34\3452527d2f2094d40a16000082f13be6.info
+    projectPath: Library\metadata\34\3452527d2f2094d40a16000082f13be6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\34\3453195a8f9fa4ead95cc0fed23bc88f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\34\3453195a8f9fa4ead95cc0fed23bc88f.info
+    projectPath: Library\metadata\34\3453195a8f9fa4ead95cc0fed23bc88f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\34\3490d79859a2a456394d504bce579b66.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\34\3490d79859a2a456394d504bce579b66.info
+    projectPath: Library\metadata\34\3490d79859a2a456394d504bce579b66.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\37\3717515bb46f445b7b871321dd5dbfa3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\37\3717515bb46f445b7b871321dd5dbfa3.info
+    projectPath: Library\metadata\37\3717515bb46f445b7b871321dd5dbfa3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\37\37893a148034249998d7b56ccce02398.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\37\37893a148034249998d7b56ccce02398.info
+    projectPath: Library\metadata\37\37893a148034249998d7b56ccce02398.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\3b\3b8b9fd026d5047cf9a703646a4897df.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\3b\3b8b9fd026d5047cf9a703646a4897df.info
+    projectPath: Library\metadata\3b\3b8b9fd026d5047cf9a703646a4897df.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\3c\3c06890493a99b249bcefdfa5780a95a
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\3c\3c06890493a99b249bcefdfa5780a95a
+    projectPath: Library\metadata\3c\3c06890493a99b249bcefdfa5780a95a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\3c\3c06890493a99b249bcefdfa5780a95a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\3c\3c06890493a99b249bcefdfa5780a95a.info
+    projectPath: Library\metadata\3c\3c06890493a99b249bcefdfa5780a95a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\40\406697fcc77a74746932980ec2e45238.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\40\406697fcc77a74746932980ec2e45238.info
+    projectPath: Library\metadata\40\406697fcc77a74746932980ec2e45238.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\40\40e246df21b524a08aa644a7d99cb75d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\40\40e246df21b524a08aa644a7d99cb75d.info
+    projectPath: Library\metadata\40\40e246df21b524a08aa644a7d99cb75d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\40\40f78df7d56174c479da5fcd127b3403.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\40\40f78df7d56174c479da5fcd127b3403.info
+    projectPath: Library\metadata\40\40f78df7d56174c479da5fcd127b3403.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\41\4183a83e881264c1faeb17f8b40171c8.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\41\4183a83e881264c1faeb17f8b40171c8.info
+    projectPath: Library\metadata\41\4183a83e881264c1faeb17f8b40171c8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\42\4235f32930246405dad16c75d24f0d2a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\42\4235f32930246405dad16c75d24f0d2a.info
+    projectPath: Library\metadata\42\4235f32930246405dad16c75d24f0d2a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\42\427dc0696e0a949e48975ca8a31cfdc8.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\42\427dc0696e0a949e48975ca8a31cfdc8.info
+    projectPath: Library\metadata\42\427dc0696e0a949e48975ca8a31cfdc8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\43\43a69640525d844c583063cd9c574e2e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\43\43a69640525d844c583063cd9c574e2e.info
+    projectPath: Library\metadata\43\43a69640525d844c583063cd9c574e2e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\44\4401d07a2be16477cb7922e57203be6e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\44\4401d07a2be16477cb7922e57203be6e.info
+    projectPath: Library\metadata\44\4401d07a2be16477cb7922e57203be6e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\44\44cb4ff7a3af24f90b40f4a4774cbff6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\44\44cb4ff7a3af24f90b40f4a4774cbff6.info
+    projectPath: Library\metadata\44\44cb4ff7a3af24f90b40f4a4774cbff6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\45\45485a381243abb42a8dcf8529d59ff0.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\45\45485a381243abb42a8dcf8529d59ff0.info
+    projectPath: Library\metadata\45\45485a381243abb42a8dcf8529d59ff0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\47\47164176019b443eda215ffa3a5be597.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\47\47164176019b443eda215ffa3a5be597.info
+    projectPath: Library\metadata\47\47164176019b443eda215ffa3a5be597.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\49\4988c961fca1c4e188ace3e8ad282e94.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\49\4988c961fca1c4e188ace3e8ad282e94.info
+    projectPath: Library\metadata\49\4988c961fca1c4e188ace3e8ad282e94.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\4a\4af24f01b254246e8bf4fd6220ab88c6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\4a\4af24f01b254246e8bf4fd6220ab88c6.info
+    projectPath: Library\metadata\4a\4af24f01b254246e8bf4fd6220ab88c6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\4d\4d0c6f7a073414f55aebaa0a25d27498.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\4d\4d0c6f7a073414f55aebaa0a25d27498.info
+    projectPath: Library\metadata\4d\4d0c6f7a073414f55aebaa0a25d27498.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\4e\4ece0142ecd4742b293709d8b0516956.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\4e\4ece0142ecd4742b293709d8b0516956.info
+    projectPath: Library\metadata\4e\4ece0142ecd4742b293709d8b0516956.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\4f\4fe301ac4532f419fb8176295cd53363.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\4f\4fe301ac4532f419fb8176295cd53363.info
+    projectPath: Library\metadata\4f\4fe301ac4532f419fb8176295cd53363.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\50\5033714e6eab348b98b421e6c67316d1.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\50\5033714e6eab348b98b421e6c67316d1.info
+    projectPath: Library\metadata\50\5033714e6eab348b98b421e6c67316d1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\51\519694efe2bb2914788b151fbd8c01f4.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\51\519694efe2bb2914788b151fbd8c01f4.info
+    projectPath: Library\metadata\51\519694efe2bb2914788b151fbd8c01f4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\56\560384742a9061d4e9f54893382a3e6a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\56\560384742a9061d4e9f54893382a3e6a.info
+    projectPath: Library\metadata\56\560384742a9061d4e9f54893382a3e6a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\56\563c03d07a56941708d7948fbae3289d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\56\563c03d07a56941708d7948fbae3289d.info
+    projectPath: Library\metadata\56\563c03d07a56941708d7948fbae3289d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\56\5698060d995534b4b9f3e83df0c12c99.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\56\5698060d995534b4b9f3e83df0c12c99.info
+    projectPath: Library\metadata\56\5698060d995534b4b9f3e83df0c12c99.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\57\57572f818cd674289bc38311fdb85d14.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\57\57572f818cd674289bc38311fdb85d14.info
+    projectPath: Library\metadata\57\57572f818cd674289bc38311fdb85d14.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\59\595ee2e013eab405f8b575370e1de3e1.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\59\595ee2e013eab405f8b575370e1de3e1.info
+    projectPath: Library\metadata\59\595ee2e013eab405f8b575370e1de3e1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\59\59b7d1042d971498199be71adf50ff3d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\59\59b7d1042d971498199be71adf50ff3d.info
+    projectPath: Library\metadata\59\59b7d1042d971498199be71adf50ff3d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5c\5c1550b2f0cdd428594e23ef7f256be3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\5c\5c1550b2f0cdd428594e23ef7f256be3.info
+    projectPath: Library\metadata\5c\5c1550b2f0cdd428594e23ef7f256be3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5d\5dbb0cba8dc8749609457d9a032aa29a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\5d\5dbb0cba8dc8749609457d9a032aa29a.info
+    projectPath: Library\metadata\5d\5dbb0cba8dc8749609457d9a032aa29a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5f\5f108f3065af04cd9807374972d19074.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\5f\5f108f3065af04cd9807374972d19074.info
+    projectPath: Library\metadata\5f\5f108f3065af04cd9807374972d19074.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5f\5f66f9e99751fb74cafe2a33194104f8.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\5f\5f66f9e99751fb74cafe2a33194104f8.info
+    projectPath: Library\metadata\5f\5f66f9e99751fb74cafe2a33194104f8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5f\5f93d05a7afeb412cb2e2a6048646768.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\5f\5f93d05a7afeb412cb2e2a6048646768.info
+    projectPath: Library\metadata\5f\5f93d05a7afeb412cb2e2a6048646768.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\61\61632bfd793624ac5b8ff83c2ad5e1e6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\61\61632bfd793624ac5b8ff83c2ad5e1e6.info
+    projectPath: Library\metadata\61\61632bfd793624ac5b8ff83c2ad5e1e6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\61\61d4140288e82495cb18444ec5aef104.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\61\61d4140288e82495cb18444ec5aef104.info
+    projectPath: Library\metadata\61\61d4140288e82495cb18444ec5aef104.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\65\6501a10ce16b048e588a124a71874b29.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\65\6501a10ce16b048e588a124a71874b29.info
+    projectPath: Library\metadata\65\6501a10ce16b048e588a124a71874b29.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\65\65a717e798d4f4570adc2ac25076a15a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\65\65a717e798d4f4570adc2ac25076a15a.info
+    projectPath: Library\metadata\65\65a717e798d4f4570adc2ac25076a15a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\66\660a876003caf45faba31ffbc8f4f0d4.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\66\660a876003caf45faba31ffbc8f4f0d4.info
+    projectPath: Library\metadata\66\660a876003caf45faba31ffbc8f4f0d4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\67\67f1d1531da5547569f0fa63de34d2ea.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\67\67f1d1531da5547569f0fa63de34d2ea.info
+    projectPath: Library\metadata\67\67f1d1531da5547569f0fa63de34d2ea.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\68\681043e06d40aff4283b251f0ff41748.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\68\681043e06d40aff4283b251f0ff41748.info
+    projectPath: Library\metadata\68\681043e06d40aff4283b251f0ff41748.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\69\6928413711bc142e68dc6de2c0b4535b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\69\6928413711bc142e68dc6de2c0b4535b.info
+    projectPath: Library\metadata\69\6928413711bc142e68dc6de2c0b4535b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\6b\6bebffaf0f76243edb780281e7fd7d92.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\6b\6bebffaf0f76243edb780281e7fd7d92.info
+    projectPath: Library\metadata\6b\6bebffaf0f76243edb780281e7fd7d92.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\6c\6c9083c0643594f3f8d400ea3c90ae1e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\6c\6c9083c0643594f3f8d400ea3c90ae1e.info
+    projectPath: Library\metadata\6c\6c9083c0643594f3f8d400ea3c90ae1e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\6e\6e7db6fcf5dac4c01ae22991c2c85746.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\6e\6e7db6fcf5dac4c01ae22991c2c85746.info
+    projectPath: Library\metadata\6e\6e7db6fcf5dac4c01ae22991c2c85746.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\6f\6f20a52919b4147a8be66e0d8c67d2e9.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\6f\6f20a52919b4147a8be66e0d8c67d2e9.info
+    projectPath: Library\metadata\6f\6f20a52919b4147a8be66e0d8c67d2e9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\70\7051dba417b3d53409f2918f1ea4938d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\70\7051dba417b3d53409f2918f1ea4938d.info
+    projectPath: Library\metadata\70\7051dba417b3d53409f2918f1ea4938d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\70\70957c5277aba411ea8772cdd908864d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\70\70957c5277aba411ea8772cdd908864d.info
+    projectPath: Library\metadata\70\70957c5277aba411ea8772cdd908864d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\72\72cea64c65f2b4f62b8ace0b096e0cac.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\72\72cea64c65f2b4f62b8ace0b096e0cac.info
+    projectPath: Library\metadata\72\72cea64c65f2b4f62b8ace0b096e0cac.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\73\73090295661b542909dd9b7ab3fd087f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\73\73090295661b542909dd9b7ab3fd087f.info
+    projectPath: Library\metadata\73\73090295661b542909dd9b7ab3fd087f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\73\730a8c2f00ae4477a9e7ad20ff74ff9b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\73\730a8c2f00ae4477a9e7ad20ff74ff9b.info
+    projectPath: Library\metadata\73\730a8c2f00ae4477a9e7ad20ff74ff9b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\75\752ca27778db5492badf40d5e1179bc1.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\75\752ca27778db5492badf40d5e1179bc1.info
+    projectPath: Library\metadata\75\752ca27778db5492badf40d5e1179bc1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\76\76e66ced38fe34089ba2eebd0b69e8ef.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\76\76e66ced38fe34089ba2eebd0b69e8ef.info
+    projectPath: Library\metadata\76\76e66ced38fe34089ba2eebd0b69e8ef.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\77\77ac89217774a4ab4bff198fb89f936b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\77\77ac89217774a4ab4bff198fb89f936b.info
+    projectPath: Library\metadata\77\77ac89217774a4ab4bff198fb89f936b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\77\77b69225b2cb2474aadebaea74597e33.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\77\77b69225b2cb2474aadebaea74597e33.info
+    projectPath: Library\metadata\77\77b69225b2cb2474aadebaea74597e33.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\78\788769bc4dcda4e0e82f8cb3a585a553.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\78\788769bc4dcda4e0e82f8cb3a585a553.info
+    projectPath: Library\metadata\78\788769bc4dcda4e0e82f8cb3a585a553.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\78\78a59ca99f8987941adb61f9e14a06a7.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\78\78a59ca99f8987941adb61f9e14a06a7.info
+    projectPath: Library\metadata\78\78a59ca99f8987941adb61f9e14a06a7.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\78\78ac7026628ebb94ea5d667cc592dad4.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\78\78ac7026628ebb94ea5d667cc592dad4.info
+    projectPath: Library\metadata\78\78ac7026628ebb94ea5d667cc592dad4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\7a\7a110c49c423c40caa31cb291d1d1048.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\7a\7a110c49c423c40caa31cb291d1d1048.info
+    projectPath: Library\metadata\7a\7a110c49c423c40caa31cb291d1d1048.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\7a\7a3befa36761e4b8ea62f188986c7c46.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\7a\7a3befa36761e4b8ea62f188986c7c46.info
+    projectPath: Library\metadata\7a\7a3befa36761e4b8ea62f188986c7c46.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\7f\7f8f79fce6b0846b08d45bdfcc64f3fc.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\7f\7f8f79fce6b0846b08d45bdfcc64f3fc.info
+    projectPath: Library\metadata\7f\7f8f79fce6b0846b08d45bdfcc64f3fc.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\80\802996fbaabc54998b724117ef135a09.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\80\802996fbaabc54998b724117ef135a09.info
+    projectPath: Library\metadata\80\802996fbaabc54998b724117ef135a09.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\82\82af455f83d66474197ecb31fa52b222.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\82\82af455f83d66474197ecb31fa52b222.info
+    projectPath: Library\metadata\82\82af455f83d66474197ecb31fa52b222.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\82\82b437b0871db4a21a1e9cf815829032.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\82\82b437b0871db4a21a1e9cf815829032.info
+    projectPath: Library\metadata\82\82b437b0871db4a21a1e9cf815829032.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\83\83558d907f39846ad86274927f76bd60.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\83\83558d907f39846ad86274927f76bd60.info
+    projectPath: Library\metadata\83\83558d907f39846ad86274927f76bd60.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\85\8510a86350b98483b907a463251380f3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\85\8510a86350b98483b907a463251380f3.info
+    projectPath: Library\metadata\85\8510a86350b98483b907a463251380f3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\85\857d19cc400d24bf78a018f54ad2b652.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\85\857d19cc400d24bf78a018f54ad2b652.info
+    projectPath: Library\metadata\85\857d19cc400d24bf78a018f54ad2b652.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\86\86711d59369eb4c45b3f1f8a6c550e2e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\86\86711d59369eb4c45b3f1f8a6c550e2e.info
+    projectPath: Library\metadata\86\86711d59369eb4c45b3f1f8a6c550e2e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\87\87fac99053b534f94a79fe93e6331805.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\87\87fac99053b534f94a79fe93e6331805.info
+    projectPath: Library\metadata\87\87fac99053b534f94a79fe93e6331805.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\88\880ddefe37d0245cb934913a8b9006ee.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\88\880ddefe37d0245cb934913a8b9006ee.info
+    projectPath: Library\metadata\88\880ddefe37d0245cb934913a8b9006ee.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\89\894e625d2f7ea4a8597336da0a28f907.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\89\894e625d2f7ea4a8597336da0a28f907.info
+    projectPath: Library\metadata\89\894e625d2f7ea4a8597336da0a28f907.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8a\8a0881e5c055048819c312db8f3b9c92.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8a\8a0881e5c055048819c312db8f3b9c92.info
+    projectPath: Library\metadata\8a\8a0881e5c055048819c312db8f3b9c92.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8a\8aa7939c673584e7b8ca44336a5495d6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8a\8aa7939c673584e7b8ca44336a5495d6.info
+    projectPath: Library\metadata\8a\8aa7939c673584e7b8ca44336a5495d6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8a\8aa99cefc0e5a4d29a65a751ab661fb1.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8a\8aa99cefc0e5a4d29a65a751ab661fb1.info
+    projectPath: Library\metadata\8a\8aa99cefc0e5a4d29a65a751ab661fb1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8b\8b83874a63ed94ed2a10b7105ff28793.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8b\8b83874a63ed94ed2a10b7105ff28793.info
+    projectPath: Library\metadata\8b\8b83874a63ed94ed2a10b7105ff28793.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8d\8d6ac69b5f1f443d8885da4c95aea179.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8d\8d6ac69b5f1f443d8885da4c95aea179.info
+    projectPath: Library\metadata\8d\8d6ac69b5f1f443d8885da4c95aea179.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8e\8e2e87401fe264d229887a269c2c871a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8e\8e2e87401fe264d229887a269c2c871a.info
+    projectPath: Library\metadata\8e\8e2e87401fe264d229887a269c2c871a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8e\8efcb49d224944acc86652bff2204b7f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\8e\8efcb49d224944acc86652bff2204b7f.info
+    projectPath: Library\metadata\8e\8efcb49d224944acc86652bff2204b7f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\91\9163d0ec7395e4c9b977e2e608dcd47d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\91\9163d0ec7395e4c9b977e2e608dcd47d.info
+    projectPath: Library\metadata\91\9163d0ec7395e4c9b977e2e608dcd47d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\92\9261424d31a844a7cb95c9f234687bde.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\92\9261424d31a844a7cb95c9f234687bde.info
+    projectPath: Library\metadata\92\9261424d31a844a7cb95c9f234687bde.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\92\928bb35ace331d342b1e47b1d702642c.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\92\928bb35ace331d342b1e47b1d702642c.info
+    projectPath: Library\metadata\92\928bb35ace331d342b1e47b1d702642c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\92\92940bce7818b49d2952a1e2f22c4d5f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\92\92940bce7818b49d2952a1e2f22c4d5f.info
+    projectPath: Library\metadata\92\92940bce7818b49d2952a1e2f22c4d5f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\93\93c62df0497b441da9096dfb2f2ebc2d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\93\93c62df0497b441da9096dfb2f2ebc2d.info
+    projectPath: Library\metadata\93\93c62df0497b441da9096dfb2f2ebc2d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\94\94c3fae5958d247f5a622331c46eb6b3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\94\94c3fae5958d247f5a622331c46eb6b3.info
+    projectPath: Library\metadata\94\94c3fae5958d247f5a622331c46eb6b3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\9a\9a694f671d9574ddb98d6376800f2953.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\9a\9a694f671d9574ddb98d6376800f2953.info
+    projectPath: Library\metadata\9a\9a694f671d9574ddb98d6376800f2953.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\9d\9dcc5d7894a4c4816a1114bb2ef98ed1.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\9d\9dcc5d7894a4c4816a1114bb2ef98ed1.info
+    projectPath: Library\metadata\9d\9dcc5d7894a4c4816a1114bb2ef98ed1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\9e\9e9aa50baaa294862ae9b1143b049a35.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\9e\9e9aa50baaa294862ae9b1143b049a35.info
+    projectPath: Library\metadata\9e\9e9aa50baaa294862ae9b1143b049a35.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\9f\9ff88f3fb04144db7b7113525d7a2076.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\9f\9ff88f3fb04144db7b7113525d7a2076.info
+    projectPath: Library\metadata\9f\9ff88f3fb04144db7b7113525d7a2076.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a3\a333ffa48a725564f82e7afb536e1b87
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a3\a333ffa48a725564f82e7afb536e1b87
+    projectPath: Library\metadata\a3\a333ffa48a725564f82e7afb536e1b87
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a4\a492020954ac645c9bb18b183151cdd6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a4\a492020954ac645c9bb18b183151cdd6.info
+    projectPath: Library\metadata\a4\a492020954ac645c9bb18b183151cdd6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a6\a66ac150cdecb4c0284fff2322bbdbce.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a6\a66ac150cdecb4c0284fff2322bbdbce.info
+    projectPath: Library\metadata\a6\a66ac150cdecb4c0284fff2322bbdbce.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a7\a7edcca5229e7f14181d41eedf43d7b6
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a7\a7edcca5229e7f14181d41eedf43d7b6
+    projectPath: Library\metadata\a7\a7edcca5229e7f14181d41eedf43d7b6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a7\a7edcca5229e7f14181d41eedf43d7b6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a7\a7edcca5229e7f14181d41eedf43d7b6.info
+    projectPath: Library\metadata\a7\a7edcca5229e7f14181d41eedf43d7b6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a8\a832a1ea0642e479699bfd185e655fe3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a8\a832a1ea0642e479699bfd185e655fe3.info
+    projectPath: Library\metadata\a8\a832a1ea0642e479699bfd185e655fe3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a8\a89bf2390b3984da888dd2cf3cf2bcc2.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a8\a89bf2390b3984da888dd2cf3cf2bcc2.info
+    projectPath: Library\metadata\a8\a89bf2390b3984da888dd2cf3cf2bcc2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a9\a91dc9b90918644e89dc466614629d80.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\a9\a91dc9b90918644e89dc466614629d80.info
+    projectPath: Library\metadata\a9\a91dc9b90918644e89dc466614629d80.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\aa\aa6e6f9400bd7423a834536da28790f2.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\aa\aa6e6f9400bd7423a834536da28790f2.info
+    projectPath: Library\metadata\aa\aa6e6f9400bd7423a834536da28790f2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ae\aeb3e098e020143939b31db0ef254189.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ae\aeb3e098e020143939b31db0ef254189.info
+    projectPath: Library\metadata\ae\aeb3e098e020143939b31db0ef254189.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\af\afb02ec67a89f437a866b4fc80560f10.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\af\afb02ec67a89f437a866b4fc80560f10.info
+    projectPath: Library\metadata\af\afb02ec67a89f437a866b4fc80560f10.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b1\b131ee50551767742b0f3a862fe5b8d4.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b1\b131ee50551767742b0f3a862fe5b8d4.info
+    projectPath: Library\metadata\b1\b131ee50551767742b0f3a862fe5b8d4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b1\b1b779286f2e64d13a25ab3c2a8fdbbb.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b1\b1b779286f2e64d13a25ab3c2a8fdbbb.info
+    projectPath: Library\metadata\b1\b1b779286f2e64d13a25ab3c2a8fdbbb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b6\b6343f138fcd5438084af933606bad69.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b6\b6343f138fcd5438084af933606bad69.info
+    projectPath: Library\metadata\b6\b6343f138fcd5438084af933606bad69.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b6\b6d4024ca682e4bcd901b09f5543d3a1.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b6\b6d4024ca682e4bcd901b09f5543d3a1.info
+    projectPath: Library\metadata\b6\b6d4024ca682e4bcd901b09f5543d3a1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b7\b717e0de74b60471f9a0134a0fc68a4c.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b7\b717e0de74b60471f9a0134a0fc68a4c.info
+    projectPath: Library\metadata\b7\b717e0de74b60471f9a0134a0fc68a4c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b7\b7d4b4ea7c3f4c7478faeafcf9f6970f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b7\b7d4b4ea7c3f4c7478faeafcf9f6970f.info
+    projectPath: Library\metadata\b7\b7d4b4ea7c3f4c7478faeafcf9f6970f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b7\b7f39265b6581465c91b0abc9d869629.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b7\b7f39265b6581465c91b0abc9d869629.info
+    projectPath: Library\metadata\b7\b7f39265b6581465c91b0abc9d869629.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b9\b91404f019019415c9fe610ad38f386d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b9\b91404f019019415c9fe610ad38f386d.info
+    projectPath: Library\metadata\b9\b91404f019019415c9fe610ad38f386d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b9\b98eedaf9e4bef94b8e1abf49c0fbec2.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b9\b98eedaf9e4bef94b8e1abf49c0fbec2.info
+    projectPath: Library\metadata\b9\b98eedaf9e4bef94b8e1abf49c0fbec2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\b9\b9c19bbbe71424b6898bd0d568dbb53d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\b9\b9c19bbbe71424b6898bd0d568dbb53d.info
+    projectPath: Library\metadata\b9\b9c19bbbe71424b6898bd0d568dbb53d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ba\ba3dae46d70e842beb041c6714b69f16.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ba\ba3dae46d70e842beb041c6714b69f16.info
+    projectPath: Library\metadata\ba\ba3dae46d70e842beb041c6714b69f16.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\bc\bc9eda0a9e8a94206ba8e35a8e9381c8.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\bc\bc9eda0a9e8a94206ba8e35a8e9381c8.info
+    projectPath: Library\metadata\bc\bc9eda0a9e8a94206ba8e35a8e9381c8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\bd\bd688801b5f4b414aa68ee4a0a4ab000.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\bd\bd688801b5f4b414aa68ee4a0a4ab000.info
+    projectPath: Library\metadata\bd\bd688801b5f4b414aa68ee4a0a4ab000.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\bd\bd84a90efa8e649fd96349e26bfc2c25.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\bd\bd84a90efa8e649fd96349e26bfc2c25.info
+    projectPath: Library\metadata\bd\bd84a90efa8e649fd96349e26bfc2c25.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c2\c24b3b1746ae64aa0a24c2ca9d09eb08.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\c2\c24b3b1746ae64aa0a24c2ca9d09eb08.info
+    projectPath: Library\metadata\c2\c24b3b1746ae64aa0a24c2ca9d09eb08.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c3\c3aa25faaa0654ce3ba398e8662e88c3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\c3\c3aa25faaa0654ce3ba398e8662e88c3.info
+    projectPath: Library\metadata\c3\c3aa25faaa0654ce3ba398e8662e88c3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c5\c5455b44cc06540c3bde12e730ea82c7.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\c5\c5455b44cc06540c3bde12e730ea82c7.info
+    projectPath: Library\metadata\c5\c5455b44cc06540c3bde12e730ea82c7.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c9\c9a1006364a7f4d24af4a4aa75033e80.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\c9\c9a1006364a7f4d24af4a4aa75033e80.info
+    projectPath: Library\metadata\c9\c9a1006364a7f4d24af4a4aa75033e80.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c9\c9c3e66e0f8db41dbb82ee9786abde9d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\c9\c9c3e66e0f8db41dbb82ee9786abde9d.info
+    projectPath: Library\metadata\c9\c9c3e66e0f8db41dbb82ee9786abde9d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ca\ca2387023f4d04592ba36f87941a739a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ca\ca2387023f4d04592ba36f87941a739a.info
+    projectPath: Library\metadata\ca\ca2387023f4d04592ba36f87941a739a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\cb\cb51d1e7bd20e402184fb60e56ad31c6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\cb\cb51d1e7bd20e402184fb60e56ad31c6.info
+    projectPath: Library\metadata\cb\cb51d1e7bd20e402184fb60e56ad31c6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\cc\cc3bcdcb17bb64ff982c403744e2c071.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\cc\cc3bcdcb17bb64ff982c403744e2c071.info
+    projectPath: Library\metadata\cc\cc3bcdcb17bb64ff982c403744e2c071.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\cd\cd440c0e776ca424eb9962d97cddbb37.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\cd\cd440c0e776ca424eb9962d97cddbb37.info
+    projectPath: Library\metadata\cd\cd440c0e776ca424eb9962d97cddbb37.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ce\cea07077dc2c6489eabbdc6f55719e24.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ce\cea07077dc2c6489eabbdc6f55719e24.info
+    projectPath: Library\metadata\ce\cea07077dc2c6489eabbdc6f55719e24.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d0\d016fac3d935946588db34ec10797f9a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d0\d016fac3d935946588db34ec10797f9a.info
+    projectPath: Library\metadata\d0\d016fac3d935946588db34ec10797f9a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d1\d1bc6148d52d24d96b7d750e68217060.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d1\d1bc6148d52d24d96b7d750e68217060.info
+    projectPath: Library\metadata\d1\d1bc6148d52d24d96b7d750e68217060.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d3\d32f677315e8448aabf4f2344aa2d4e0.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d3\d32f677315e8448aabf4f2344aa2d4e0.info
+    projectPath: Library\metadata\d3\d32f677315e8448aabf4f2344aa2d4e0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d5\d5822f1905992447fb201f0f4d3c401b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d5\d5822f1905992447fb201f0f4d3c401b.info
+    projectPath: Library\metadata\d5\d5822f1905992447fb201f0f4d3c401b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d5\d5bdfc5da783f49c7bf51aececd827b2.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d5\d5bdfc5da783f49c7bf51aececd827b2.info
+    projectPath: Library\metadata\d5\d5bdfc5da783f49c7bf51aececd827b2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d6\d61fd49b2f62a4cc19475003d4fb0303.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d6\d61fd49b2f62a4cc19475003d4fb0303.info
+    projectPath: Library\metadata\d6\d61fd49b2f62a4cc19475003d4fb0303.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\d9\d9c2916b71e6f4ba9ad118f7c7dea93b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\d9\d9c2916b71e6f4ba9ad118f7c7dea93b.info
+    projectPath: Library\metadata\d9\d9c2916b71e6f4ba9ad118f7c7dea93b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\da\dabdeb7af72a24a349db40ce06ca85d8.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\da\dabdeb7af72a24a349db40ce06ca85d8.info
+    projectPath: Library\metadata\da\dabdeb7af72a24a349db40ce06ca85d8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\db\db18a33d1956548e881d5d86f0849d4e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\db\db18a33d1956548e881d5d86f0849d4e.info
+    projectPath: Library\metadata\db\db18a33d1956548e881d5d86f0849d4e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\dc\dc6ec33f4bb714e86b2330d2fc5faa80.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\dc\dc6ec33f4bb714e86b2330d2fc5faa80.info
+    projectPath: Library\metadata\dc\dc6ec33f4bb714e86b2330d2fc5faa80.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\dd\ddfbcfd291a794b599eed68ee1ea2e4c.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\dd\ddfbcfd291a794b599eed68ee1ea2e4c.info
+    projectPath: Library\metadata\dd\ddfbcfd291a794b599eed68ee1ea2e4c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\e4\e44573eebf2b4420b9026a9d8b3ddebb.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\e4\e44573eebf2b4420b9026a9d8b3ddebb.info
+    projectPath: Library\metadata\e4\e44573eebf2b4420b9026a9d8b3ddebb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\e6\e6756da4f9f27443dbb78b960e671ba2.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\e6\e6756da4f9f27443dbb78b960e671ba2.info
+    projectPath: Library\metadata\e6\e6756da4f9f27443dbb78b960e671ba2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ed\eda0dce2dadf3441393bbaa24491f621.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ed\eda0dce2dadf3441393bbaa24491f621.info
+    projectPath: Library\metadata\ed\eda0dce2dadf3441393bbaa24491f621.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ed\edf5af215b5234ea68df03f17506ba8a.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ed\edf5af215b5234ea68df03f17506ba8a.info
+    projectPath: Library\metadata\ed\edf5af215b5234ea68df03f17506ba8a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f0\f01ccf503a06444b49202bacc182f961.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f0\f01ccf503a06444b49202bacc182f961.info
+    projectPath: Library\metadata\f0\f01ccf503a06444b49202bacc182f961.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f1\f1eaf48e604dd4a96a396a5948184f65.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f1\f1eaf48e604dd4a96a396a5948184f65.info
+    projectPath: Library\metadata\f1\f1eaf48e604dd4a96a396a5948184f65.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f4\f4d116fc37e34490ab347381f305109e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f4\f4d116fc37e34490ab347381f305109e.info
+    projectPath: Library\metadata\f4\f4d116fc37e34490ab347381f305109e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f5\f5074c8cf795c4fe8b81ec8b2f3bd20e.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f5\f5074c8cf795c4fe8b81ec8b2f3bd20e.info
+    projectPath: Library\metadata\f5\f5074c8cf795c4fe8b81ec8b2f3bd20e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f5\f50b01056ee0a49238ff4fedc2abd7d4.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f5\f50b01056ee0a49238ff4fedc2abd7d4.info
+    projectPath: Library\metadata\f5\f50b01056ee0a49238ff4fedc2abd7d4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f5\f540a1d8fb07248899d3035fac41b71b.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f5\f540a1d8fb07248899d3035fac41b71b.info
+    projectPath: Library\metadata\f5\f540a1d8fb07248899d3035fac41b71b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f5\f5e2fbea8d1ea4022ac1a37d255abe99.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f5\f5e2fbea8d1ea4022ac1a37d255abe99.info
+    projectPath: Library\metadata\f5\f5e2fbea8d1ea4022ac1a37d255abe99.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f8\f80ba18807508403f8a82bd1a3c468a3.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f8\f80ba18807508403f8a82bd1a3c468a3.info
+    projectPath: Library\metadata\f8\f80ba18807508403f8a82bd1a3c468a3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f9\f90419eabd4a34f19bb6c4f0e2147aaa.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f9\f90419eabd4a34f19bb6c4f0e2147aaa.info
+    projectPath: Library\metadata\f9\f90419eabd4a34f19bb6c4f0e2147aaa.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f9\f90ba950e2c59434f9dc405626628952.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\f9\f90ba950e2c59434f9dc405626628952.info
+    projectPath: Library\metadata\f9\f90ba950e2c59434f9dc405626628952.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\fc\fc4ceda76f2b8408e88642f5c07460f6.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\fc\fc4ceda76f2b8408e88642f5c07460f6.info
+    projectPath: Library\metadata\fc\fc4ceda76f2b8408e88642f5c07460f6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\fc\fc87c77937aa94918a67e78c9fbfa77d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\fc\fc87c77937aa94918a67e78c9fbfa77d.info
+    projectPath: Library\metadata\fc\fc87c77937aa94918a67e78c9fbfa77d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\fd\fd1d441a63dd743caa74915459d2cb5f.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\fd\fd1d441a63dd743caa74915459d2cb5f.info
+    projectPath: Library\metadata\fd\fd1d441a63dd743caa74915459d2cb5f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\fe\fe596448b530b4325915d5da916bb1fc.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\fe\fe596448b530b4325915d5da916bb1fc.info
+    projectPath: Library\metadata\fe\fe596448b530b4325915d5da916bb1fc.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ff\ff5654082ecd44f22a061e67d35a3e5d.info
+    fullPath: D:\unity_projects\2020\Basketball\Library\metadata\ff\ff5654082ecd44f22a061e67d35a3e5d.info
+    projectPath: Library\metadata\ff\ff5654082ecd44f22a061e67d35a3e5d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.Timeline.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: D:\unity_projects\2020\Basketball\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: E:\my_workshop\Unity\unity projects\2020\BB\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\unity_projects\2020\Basketball\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\67968d-mainStage.json
+    fullPath: D:\unity_projects\2020\Basketball\Library\StateCache\Hierarchy\67968d-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\67968d-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\0e43e7-mainStage.json
+    fullPath: D:\unity_projects\2020\Basketball\Library\StateCache\SceneView\0e43e7-mainStage.json
+    projectPath: Library\StateCache\SceneView\0e43e7-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: D:\unity_projects\2020\Basketball\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\unity_projects\2020\Basketball\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.dll
+    fullPath: D:\unity_projects\2020\Basketball\obj\Debug\Assembly-CSharp.dll
+    projectPath: obj\Debug\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.pdb
+    fullPath: D:\unity_projects\2020\Basketball\obj\Debug\Assembly-CSharp.pdb
+    projectPath: obj\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: D:\unity_projects\2020\Basketball\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
