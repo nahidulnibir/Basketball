@@ -27,31 +27,50 @@ public class UiManager : MonoBehaviour
     Text ScoreText;
     [SerializeField]
     Image scoreStar;
+    [SerializeField]
+    Image animationStar;
+    Vector2 scoreStarPosition;
 
-    bool starTimer = false;
+    [Header("GameOverPanel")]
+    RectTransform gameOverPanel;
+    Text gameoverScoreText;
+    Text highScoreText;
+
+    [Header("startPanel")]
+    RectTransform startPanel;
+
+
+    bool startTimer = false;
 
 
     Vector2 screenDim;
     public static event Action resetBall;
     public static event Action timerTimeUp;
+    public static event Action restart;
+
+
 
 
     void Start()
     {
         currentTime = timeToBurst;
         screenDim = new Vector2(Gamecanvas.rect.width, Gamecanvas.rect.height);
-        Debug.Log(screenDim);
+        scoreStarPosition = scoreStar.rectTransform.anchoredPosition;
+        Debug.Log(scoreStarPosition);
+
     }
 
     private void OnEnable()
     {
         TimeBall.timeBallReset += Timer;
+        ScoreManager.scoreAction += score;
+        ScoreManager.gameOverAction += GameOver;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (starTimer)
+        if (startTimer)
         {
             if (currentTime > 0)
             {
@@ -61,7 +80,7 @@ public class UiManager : MonoBehaviour
             }
             else
             {
-                starTimer = false;
+                startTimer = false;
                 timerContainer.gameObject.SetActive(false);
                 timerTimeUp();
             }
@@ -70,10 +89,41 @@ public class UiManager : MonoBehaviour
     }
 
 
+
+    void score(int score)
+    {
+        ScoreText.text = score.ToString();
+        StartCoroutine(scoreAnim());
+    }
+
+    void GameOver(int score, int highScore)
+    {
+        gameoverScoreText.text = "SCORE: " + score.ToString();
+        highScoreText.text = "HIGHSCORE: " + highScore.ToString();
+        gameOverPanel.DOAnchorPos(new Vector2(0, 0), 1f);
+    }
+
+    public void Restart()
+    {
+        gameOverPanel.DOAnchorPos(new Vector2(1000, 0), 1f);
+        restart();
+    }
+
+    IEnumerator scoreAnim()
+    {
+        animationStar.gameObject.SetActive(true);
+        animationStar.rectTransform.position = Vector2.zero;
+        Tween scoreTween = animationStar.rectTransform.DOAnchorPos(scoreStarPosition, 1);
+        yield return scoreTween.WaitForCompletion();
+        animationStar.gameObject.SetActive(false);
+    }
+
+
     //revise later
     public void ResetBall()
     {
         resetBall();
+        restart();
 
     }
 
@@ -99,7 +149,7 @@ public class UiManager : MonoBehaviour
 
     void Timer() {
         currentTime = timeToBurst;
-        starTimer = true;
+        startTimer = true;
         timerContainer.gameObject.SetActive(true);
         timerContainer.rectTransform.position = new Vector2(screenDim.x/2,screenDim.y/2);
         moveTimer();

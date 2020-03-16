@@ -27,7 +27,7 @@ public class Ball : MonoBehaviour
 
     public static event Action onUpperCol;
     public static event Action resetHoop;
-    public static event Action resetBall;
+    //public static event Action resetBall;
 
 
     protected virtual void OnEnable()

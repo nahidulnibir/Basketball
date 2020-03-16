@@ -12,9 +12,14 @@ public class ScoreManager : MonoBehaviour
     int highScore;
 
 
+    public static event Action<int> scoreAction;
+    public static event Action<int,int> gameOverAction;
+
+
     private void OnEnable()
     {
         hoop.score += Score;
+        UiManager.restart += Restart;
     }
 
     // Start is called before the first frame update
@@ -32,6 +37,9 @@ public class ScoreManager : MonoBehaviour
     void Score()
     {
         score += 1;
+        scoreAction(score);
+        Debug.Log(score);
+        
     }
 
     void ResetScore()
@@ -56,8 +64,14 @@ public class ScoreManager : MonoBehaviour
             highScore = score;
             SaveHighScore();
         }
+        gameOverAction(score, highScore);
+
     }
 
+    void Restart()
+    {
+        ResetScore();
+    }
 
     void SaveHighScore()
     {
