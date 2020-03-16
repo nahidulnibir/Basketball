@@ -21,3 +21,4 @@ Features could not implement:
 
 
 *** there is a summary comment in ball base layer 
+*** still there are quite a few bugs in the apk build
