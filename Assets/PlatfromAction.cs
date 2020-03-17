@@ -52,12 +52,17 @@ public class PlatfromAction : MonoBehaviour
         if(collision.tag == "ball" & !scored)
         {
             miss();
+            ResetBall();
         }
-
-        if (collision.tag == "ball")
+        else
         {
             ResetBall();
         }
+
+        //if (collision.tag == "ball")
+        //{
+        //    ResetBall();
+        //}
     }
 
 }

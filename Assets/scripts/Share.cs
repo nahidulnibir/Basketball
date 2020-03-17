@@ -69,7 +69,7 @@ public class Share : MonoBehaviour
 
 			//create image URI to add it to the intent
 			AndroidJavaClass uriClass = new AndroidJavaClass("android.net.Uri");
-			AndroidJavaObject uriObject = uriClass.CallStatic<AndroidJavaObject>("parse", "file://" + screenShotPath);
+			AndroidJavaObject uriObject = uriClass.CallStatic<AndroidJavaObject>("parse", "content://" + screenShotPath);
 
 			//put image and string extra
 			intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_STREAM"), uriObject);

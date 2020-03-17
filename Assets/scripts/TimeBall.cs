@@ -19,6 +19,7 @@ public class TimeBall : Ball
     protected override void OnDisable()
     {
         base.OnDisable();
+        UiManager.timerTimeUp -= PlayBurst;
         turnOffTimeBall();
     }
 
@@ -50,8 +51,12 @@ public class TimeBall : Ball
     protected override void ResetBall()
     {
         base.ResetBall();
-        timeBallReset();
-        sr.enabled = true;
+        if (this.gameObject.activeSelf)
+        {
+            timeBallReset();
+            sr.enabled = true;
+
+        }
     }
 
     void PlayBurst()

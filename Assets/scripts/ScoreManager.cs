@@ -13,8 +13,7 @@ public class ScoreManager : MonoBehaviour
 
 
     public static event Action<int> scoreAction;
-    public static event Action damageAction;
-    public static event Action resetScore;
+    public static event Action<int> damageAction;
     public static event Action<int,int> gameOverAction;
 
 
@@ -24,6 +23,15 @@ public class ScoreManager : MonoBehaviour
         UiManager.restart += Restart;
         TimeBall.gameOver += GameOver;
         PlatfromAction.miss += Damage;
+    }
+
+    private void OnDisable()
+    {
+        hoop.score -= Score;
+        UiManager.restart -= Restart;
+        TimeBall.gameOver -= GameOver;
+        PlatfromAction.miss -= Damage;
+
     }
 
     // Start is called before the first frame update
@@ -55,12 +63,12 @@ public class ScoreManager : MonoBehaviour
     void Damage()
     {
         Life -= 1;
+        damageAction(Life);
         if (Life <= 0)
         {
             Debug.Log("GameOver");
             GameOver();
         }
-        damageAction();
     }
 
     void GameOver()

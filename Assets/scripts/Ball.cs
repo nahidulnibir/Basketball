@@ -64,7 +64,7 @@ public class Ball : MonoBehaviour
     {
         UiManager.resetBall -= ResetBall;
         GameManager.resetBall -= ResetBall;
-
+        UiManager.restart -= ResetBall;
     }
 
     // Start is called before the first frame update

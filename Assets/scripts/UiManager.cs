@@ -39,7 +39,6 @@ public class UiManager : MonoBehaviour
     [SerializeField]
     Image animationBall;
     Vector2 lifeBallPosition;
-    int life = 3;
 
 
 
@@ -83,11 +82,20 @@ public class UiManager : MonoBehaviour
         TimeBall.turnOffTimeBall += turnOffTimeBall;
         Ball.turnOffTimer += turnOffTimeBall;
         ScoreManager.scoreAction += score;
-        ScoreManager.resetScore += resetScore;
         ScoreManager.damageAction += miss;
         ScoreManager.gameOverAction += GameOver;
         PlatfromAction.ResetBall += ResetBall;
+    }
 
+    private void OnDisable()
+    {
+        TimeBall.timeBallReset -= Timer;
+        TimeBall.turnOffTimeBall -= turnOffTimeBall;
+        Ball.turnOffTimer -= turnOffTimeBall;
+        ScoreManager.scoreAction -= score;
+        ScoreManager.damageAction -= miss;
+        ScoreManager.gameOverAction -= GameOver;
+        PlatfromAction.ResetBall -= ResetBall;
 
     }
 
@@ -134,16 +142,11 @@ public class UiManager : MonoBehaviour
         sm.PlaySound(SoundManager.sounds.score);
         StartCoroutine(scoreAnim());
     }
-    void miss()
+    void miss(int life)
     {
-        life -= 1;
         lifeText.text = life.ToString();
         sm.PlaySound(SoundManager.sounds.miss);
         StartCoroutine(MissAnim());
-    }
-    void resetScore()
-    {
-        life = 3;
     }
 
     void GameOver(int score, int highScore)
@@ -153,16 +156,20 @@ public class UiManager : MonoBehaviour
         gameOverPanel.DOAnchorPos(new Vector2(0, 0), 1f);
         sm.PlaySound(SoundManager.sounds.gameover);
         sm.PlaySound(SoundManager.sounds.swish);
+
     }
 
     public void Restart()
     {
         gameOverPanel.DOAnchorPos(new Vector2(1000, 0), 1f);
+        lifeText.text = "3";
+        ScoreText.text = "0";
         //currentTime = timeToBurst;
         turnOffTimeBall();
         sm.PlaySound(SoundManager.sounds.restart);
         sm.PlaySound(SoundManager.sounds.swish);
         restart();
+
     }
 
     IEnumerator scoreAnim()
