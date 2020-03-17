@@ -13,6 +13,8 @@ Features Added:
 => chage ball without loading scene
 => use of tweening library(dotween) for ui anim
 => sotring highscore securely 
+=> android native share 
+=> backbutton exit
 
 
 
