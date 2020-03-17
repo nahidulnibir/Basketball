@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TimeBall : Ball
 {
     public static event Action timeBallReset;
+    public static event Action gameOver;
+    public static event Action turnOffTimeBall;
     [SerializeField]
     ParticleSystem ps;
     SpriteRenderer sr;
@@ -16,11 +16,16 @@ public class TimeBall : Ball
         UiManager.timerTimeUp += PlayBurst;
     }
 
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        turnOffTimeBall();
+    }
+
     protected override void Start()
     {
         base.Start();
         sr = GetComponent<SpriteRenderer>();
-
 
     }
 
@@ -29,6 +34,12 @@ public class TimeBall : Ball
     protected override void Update()
     {
         base.Update();
+        if (base.timeUp)
+        {
+            base.sm.PlaySound(SoundManager.sounds.burst);
+            gameOver();
+            base.timeUp = false;
+        }
     }
 
     protected override void OnTriggerEnter2D(Collider2D collision)
@@ -46,7 +57,6 @@ public class TimeBall : Ball
     void PlayBurst()
     {
         ps.Play();
-        //this.gameObject.SetActive(false);
         sr.enabled = false;
     }
 

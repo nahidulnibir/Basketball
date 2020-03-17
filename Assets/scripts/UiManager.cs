@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
@@ -15,7 +14,7 @@ public class UiManager : MonoBehaviour
 
     [Header("timer")]
     [SerializeField]
-    float timeToBurst;
+    float timeToBurst = 10;
     float currentTime;
     [SerializeField]
     Image timerContainer;
@@ -31,9 +30,25 @@ public class UiManager : MonoBehaviour
     Image animationStar;
     Vector2 scoreStarPosition;
 
+
+    [Header("life")]
+    [SerializeField]
+    Text lifeText;
+    [SerializeField]
+    Image lifeImage;
+    [SerializeField]
+    Image animationBall;
+    Vector2 lifeBallPosition;
+    int life = 3;
+
+
+
     [Header("GameOverPanel")]
+    [SerializeField]
     RectTransform gameOverPanel;
+    [SerializeField]
     Text gameoverScoreText;
+    [SerializeField]
     Text highScoreText;
 
     [Header("startPanel")]
@@ -44,27 +59,36 @@ public class UiManager : MonoBehaviour
 
 
     Vector2 screenDim;
+
+
     public static event Action resetBall;
     public static event Action timerTimeUp;
     public static event Action restart;
 
 
-
+    SoundManager sm;
 
     void Start()
     {
         currentTime = timeToBurst;
         screenDim = new Vector2(Gamecanvas.rect.width, Gamecanvas.rect.height);
         scoreStarPosition = scoreStar.rectTransform.anchoredPosition;
-        Debug.Log(scoreStarPosition);
-
+        lifeBallPosition = lifeImage.rectTransform.anchoredPosition;
+        sm = SoundManager.Instance;
     }
 
     private void OnEnable()
     {
         TimeBall.timeBallReset += Timer;
+        TimeBall.turnOffTimeBall += turnOffTimeBall;
+        Ball.turnOffTimer += turnOffTimeBall;
         ScoreManager.scoreAction += score;
+        ScoreManager.resetScore += resetScore;
+        ScoreManager.damageAction += miss;
         ScoreManager.gameOverAction += GameOver;
+        PlatfromAction.ResetBall += ResetBall;
+
+
     }
 
     // Update is called once per frame
@@ -86,6 +110,20 @@ public class UiManager : MonoBehaviour
             }
 
         }
+
+
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                AndroidJavaObject activity = new AndroidJavaClass("com.unity3d.player.UnityPlayer").GetStatic<AndroidJavaObject>("currentActivity");
+                activity.Call<bool>("moveTaskToBack", true);
+            }
+            else
+            {
+                Application.Quit();
+            }
+        }
     }
 
 
@@ -93,7 +131,19 @@ public class UiManager : MonoBehaviour
     void score(int score)
     {
         ScoreText.text = score.ToString();
+        sm.PlaySound(SoundManager.sounds.score);
         StartCoroutine(scoreAnim());
+    }
+    void miss()
+    {
+        life -= 1;
+        lifeText.text = life.ToString();
+        sm.PlaySound(SoundManager.sounds.miss);
+        StartCoroutine(MissAnim());
+    }
+    void resetScore()
+    {
+        life = 3;
     }
 
     void GameOver(int score, int highScore)
@@ -101,29 +151,46 @@ public class UiManager : MonoBehaviour
         gameoverScoreText.text = "SCORE: " + score.ToString();
         highScoreText.text = "HIGHSCORE: " + highScore.ToString();
         gameOverPanel.DOAnchorPos(new Vector2(0, 0), 1f);
+        sm.PlaySound(SoundManager.sounds.gameover);
+        sm.PlaySound(SoundManager.sounds.swish);
     }
 
     public void Restart()
     {
         gameOverPanel.DOAnchorPos(new Vector2(1000, 0), 1f);
+        //currentTime = timeToBurst;
+        turnOffTimeBall();
+        sm.PlaySound(SoundManager.sounds.restart);
+        sm.PlaySound(SoundManager.sounds.swish);
         restart();
     }
 
     IEnumerator scoreAnim()
     {
         animationStar.gameObject.SetActive(true);
-        animationStar.rectTransform.position = Vector2.zero;
+        animationStar.rectTransform.position = new Vector2(0, -2000);
         Tween scoreTween = animationStar.rectTransform.DOAnchorPos(scoreStarPosition, 1);
         yield return scoreTween.WaitForCompletion();
         animationStar.gameObject.SetActive(false);
     }
+    IEnumerator MissAnim()
+    {
+        Debug.Log("miss anim");
+        animationBall.gameObject.SetActive(true);
+        animationBall.rectTransform.anchoredPosition = lifeBallPosition;
+        Tween scoreTween = animationBall.rectTransform.DOAnchorPos(new Vector2(0,-2000), 1);
+        yield return scoreTween.WaitForCompletion();
+        animationBall.gameObject.SetActive(false);
+    }
+
+
 
 
     //revise later
     public void ResetBall()
     {
         resetBall();
-        restart();
+        //restart();
 
     }
 
@@ -151,9 +218,13 @@ public class UiManager : MonoBehaviour
         currentTime = timeToBurst;
         startTimer = true;
         timerContainer.gameObject.SetActive(true);
-        timerContainer.rectTransform.position = new Vector2(screenDim.x/2,screenDim.y/2);
+        timerContainer.rectTransform.position = new Vector2(screenDim.x / 2, screenDim.y / 2);
         moveTimer();
         Debug.Log("timeballreset");
+    }
 
+    void turnOffTimeBall()
+    {
+        timerContainer.gameObject.SetActive(false);
     }
 }

@@ -5,6 +5,11 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
 
+    private static SoundManager _instace;
+    public static SoundManager Instance { get { return _instace; } }
+
+   
+
     static int soundOn = 1;
     AudioSource audioSource;
 
@@ -15,9 +20,20 @@ public class SoundManager : MonoBehaviour
         score,
         burst,
         swish,
+        miss,
+        gameover,
+        restart,
     }
 
-    Dictionary<sounds, AudioClip> sound = new Dictionary<sounds, AudioClip>();
+    public Dictionary<sounds, AudioClip> sound = new Dictionary<sounds, AudioClip>();
+
+    [Serializable]
+    public struct soundStruct
+    {
+        public sounds soundName;
+        public AudioClip ac;
+    }
+    public soundStruct[] soundsCollection;
 
     public void PlaySound(sounds soundName)
     {
@@ -29,7 +45,22 @@ public class SoundManager : MonoBehaviour
 
     private void Awake()
     {
+        if(_instace != null && _instace != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instace = this;
+        }
+
         audioSource = GetComponent<AudioSource>();
+
+        foreach(soundStruct sounds in soundsCollection)
+        {
+            sound.Add(sounds.soundName, sounds.ac);
+        }
+
     }
 
     // Start is called before the first frame update

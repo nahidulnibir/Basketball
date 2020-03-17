@@ -1,11 +1,29 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(CircleCollider2D))]
+
+
+//main swipe mechanism works here
+//detects the touch start and end and calculate the normalized direction then add a impulse force in that normalize direction 
+//uses a flag to check if already shot if so then wont take any more shot
+//there ia a collider above the hoop which triggers the sorting layer of the hoop which in general stays under the balls layer 
+// but when triggered goes over the balls layer which gives an impression of ball going through the basket 
+//another coolider in the hoop triggers the score 
+//and if without triggering the score the ball touches the platform trigger then miss is counted 
+//triggering the platform witll reset the ball 
+//time ball will blast if not flicked in 10 seconds 
+// to communicate with different scripts i mostly used delegates and events but in case of sounds manager i used singletone 
+
+
+
+// **  to play on unity editor press space for a miss shot 
+// & up arrow key for a score shot
+
+
+
 public class Ball : MonoBehaviour
 {
     Vector2 startPos, endPos, dir, normDir;
@@ -18,22 +36,28 @@ public class Ball : MonoBehaviour
 
     Rigidbody2D rb2d;
 
-    public bool shot=false;
+    protected bool shot=false;
 
 
     float resetTime = 10;
     float currentTime = 10;
 
+    protected bool timeUp = false;
 
     public static event Action onUpperCol;
     public static event Action resetHoop;
+    public static event Action turnOffTimer;
     //public static event Action resetBall;
+
+    protected SoundManager sm;
 
 
     protected virtual void OnEnable()
     {
         UiManager.resetBall += ResetBall;
         GameManager.resetBall += ResetBall;
+        UiManager.restart += ResetBall;
+
     }
 
     protected virtual void OnDisable()
@@ -50,12 +74,32 @@ public class Ball : MonoBehaviour
         rb2d.isKinematic = true;
         rb2d.velocity = Vector2.zero;
         rb2d.gravityScale = 4;
+        sm = SoundManager.Instance;
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
-        if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Began)
+
+#if UNITY_EDITOR
+
+        if (Input.GetKeyDown("space") & !shot)
+        {
+            rb2d.isKinematic = false;
+            rb2d.AddForce(new Vector2(0.1f,1) * tForce, ForceMode2D.Impulse);
+            shot = true;
+        }
+        else if(Input.GetKeyDown("up")& !shot)
+        {
+            rb2d.isKinematic = false;
+            rb2d.AddForce(Vector2.up * tForce, ForceMode2D.Impulse);
+            shot = true;
+
+        }
+
+#endif
+
+        if (Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             tStart = Time.time;
             startPos = Input.GetTouch(0).position;
@@ -69,26 +113,33 @@ public class Ball : MonoBehaviour
             dir = (endPos - startPos);
             normDir = (endPos - startPos).normalized;
             Debug.Log(dir);
-            if (dir.y > 20)
+            if (dir.y > 20&!shot)
             {
                 rb2d.isKinematic = false;
                 rb2d.AddForce(normDir * tForce, ForceMode2D.Impulse);
                 shot = true;
+                sm.PlaySound(SoundManager.sounds.ballThrow);
+
             }
         }
 
         if (shot)
         {
-            transform.localScale = Vector3.Lerp(transform.localScale, transform.localScale * .4f, Time.deltaTime*2);
+            transform.localScale = Vector3.Lerp(transform.localScale, transform.localScale * .7f, Time.deltaTime*1.7f);
         }
 
-        if( shot && currentTime > 0)
+        if (!shot && currentTime > 0)
         {
             currentTime -= Time.deltaTime;
         }
+        else if (shot)
+        {
+            timeUp = false;
+            turnOffTimer();
+        }
         else
         {
-            ResetBall();
+            timeUp = true;
         }
 
 
@@ -113,6 +164,7 @@ public class Ball : MonoBehaviour
         rb2d.velocity = Vector2.zero;
         rb2d.angularVelocity = 0;
         currentTime = 10;
+        timeUp = false;
     }
 
 }

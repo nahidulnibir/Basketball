@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class hoop : MonoBehaviour
@@ -23,6 +21,10 @@ public class hoop : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         scoreCol = GetComponent<CircleCollider2D>();
+    }
+
+    private void Start()
+    {
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
